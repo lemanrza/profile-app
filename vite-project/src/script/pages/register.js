@@ -12,17 +12,16 @@ const registerInputs = {
   confirmPasswor: document.querySelector("#confirmPassword"),
 };
 
-const registBtn = document.querySelector("#register-btn");
 registerForm.addEventListener("submit", async function (e) {
   e.preventDefault();
   const apiReponse = await controller.getAll(endpoints.users);
-  const copyDublicatUser = apiReponse.data.find(
+  const copyDublicateUser = apiReponse.data.find(
     (i) =>
       i.username == registerInputs.username.value ||
       i.email == registerInputs.email.value
   );
 
-  if (copyDublicatUser) {
+  if (copyDublicateUser) {
     window.alert("email or username is already in use");
   } else {
     const newUser = new User(

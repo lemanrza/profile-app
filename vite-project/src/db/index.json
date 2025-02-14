@@ -1,40 +1,76 @@
 {
-    "users": [
-        {
-            "id": "1",
-            "username": "john_doe",
-            "fullName": "John Doe",
-            "email": "john.doe@example.com",
-            "role": "client",
-            "password": "securepassword123",
-            "profileImg": "https://example.com/images/profiles/john_doe.jpg",
-            "createdAt": "2023-07-15",
-            "lastLogin": "2023-07-15",
-            "bio": "Travel enthusiast who loves exploring new places and trying exotic cuisines."
-        },
-        {
-            "id": "2",
-            "username": "jane_smith",
-            "fullName": "Jane Smith",
-            "email": "jane.smith@example.com",
-            "role": "client",
-            "password": "mypassword456",
-            "profileImg": "https://example.com/images/profiles/jane_smith.jpg",
-            "createdAt": "2022-10-20",
-            "lastLogin": "2023-07-15",
-            "bio": "Adventure seeker and avid photographer."
-        },
-        {
-            "id": "3",
-            "username": "admin_user",
-            "fullName": "Admin User",
-            "email": "admin@example.com",
-            "role": "admin",
-            "password": "adminpassword789",
-            "profileImg": "https://example.com/images/profiles/admin_user.jpg",
-            "createdAt": "2021-01-01",
-            "lastLogin": "2023-07-15",
-            "bio": "Managing platform operations with a passion for customer satisfaction."
-        }
-    ]
+  "users": [
+    {
+      "id": "1",
+      "username": "john_doe",
+      "fullName": "John Doe",
+      "email": "john.doe@example.com",
+      "role": "client",
+      "password": "securepassword123",
+      "profileImg": "https://example.com/images/profiles/john_doe.jpg",
+      "createdAt": "2023-07-15",
+      "lastLogin": "2023-07-15",
+      "bio": "Travel enthusiast who loves exploring new places and trying exotic cuisines."
+    },
+    {
+      "id": "2",
+      "username": "jane_smith",
+      "fullName": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "role": "client",
+      "password": "mypassword456",
+      "profileImg": "https://example.com/images/profiles/jane_smith.jpg",
+      "createdAt": "2022-10-20",
+      "lastLogin": "2023-07-15",
+      "bio": "Adventure seeker and avid photographer."
+    },
+    {
+      "id": "3",
+      "username": "admin_user",
+      "fullName": "Admin User",
+      "email": "admin@example.com",
+      "role": "admin",
+      "password": "adminpassword789",
+      "profileImg": "https://example.com/images/profiles/admin_user.jpg",
+      "createdAt": "2021-01-01",
+      "lastLogin": "2023-07-15",
+      "bio": "Managing platform operations with a passion for customer satisfaction."
+    },
+    {
+      "id": "378c",
+      "fullName": "leman rzali",
+      "username": "laman.rzali",
+      "email": "leman@gmail.com",
+      "password": "leman12345",
+      "role": "client",
+      "profileImage": "https://avatar.iran.liara.run/public/41",
+      "createdAt": "2025-02-14T21:23:08.613Z",
+      "lastLogin": "2025-02-14T21:23:08.613Z",
+      "bio": ""
+    },
+    {
+      "id": "cfc3",
+      "fullName": "leman rzali",
+      "username": "laman.rzali11",
+      "email": "lamaner@code.edu.az",
+      "password": "12345",
+      "role": "client",
+      "profileImage": "https://avatar.iran.liara.run/public/41",
+      "createdAt": "2025-02-14T21:27:57.407Z",
+      "lastLogin": "2025-02-14T21:27:57.407Z",
+      "bio": ""
+    },
+    {
+      "id": "5a8e",
+      "fullName": "vusal haciyev",
+      "username": "vusal15",
+      "email": "haciyev@gmail.com",
+      "password": "123456",
+      "role": "client",
+      "profileImage": "https://avatar.iran.liara.run/public/41",
+      "createdAt": "2025-02-14T21:36:07.353Z",
+      "lastLogin": "2025-02-14T21:36:07.353Z",
+      "bio": ""
+    }
+  ]
 }

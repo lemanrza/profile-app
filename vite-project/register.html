@@ -3,72 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Registeer Page</title>
+    <title>Register Page</title>
     <link rel="stylesheet" href="./src/style.css">
   </head>
   <body>
     <header
-      class="fixed inset-x-0 top-0 z-30 mx-auto w-full max-w-screen-md border border-gray-100 bg-white/80 py-3 shadow backdrop-blur-lg md:top-6 md:rounded-3xl lg:max-w-screen-lg"
-    >
-      <div class="px-4">
-        <div class="flex items-center justify-between">
-          <div class="flex shrink-0">
-            <a aria-current="page" class="flex items-center" href="index.html">
-              <img
-                class="h-7 w-auto"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/2560px-Airbnb_Logo_B%C3%A9lo.svg.png"
-                alt="hotel app"
-              />
-              <p class="sr-only">AirBnB</p>
-            </a>
-          </div>
-          <div
-            class="hidden md:flex md:items-center md:justify-center md:gap-5"
+    class="fixed inset-x-0 top-0 z-30 mx-auto w-full max-w-screen-md border border-gray-100 bg-white/80 py-3 shadow backdrop-blur-lg md:top-6 md:rounded-3xl lg:max-w-screen-lg"
+  >
+    <div class="px-4">
+      <div class="flex items-center justify-between">
+        
+        <div
+          class="hidden md:flex md:items-center md:justify-center md:gap-5"
+        >
+          <a
+            aria-current="page"
+            class="inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900"
+            href="index.html"
+            >Home</a
           >
-            <a
-              aria-current="page"
-              class="inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900"
-              href="index.html"
-              >Home</a
-            >
-            <a
-              aria-current="page"
-              class="inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900"
-              href="hotels.html"
-              >Hotels</a
-            >
-            <a
-              class="inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900"
-              href="wishlist.html"
-              >Wishlist</a
-            >
-          </div>
-          <div class="flex items-center justify-end gap-3 login-register">
-            <a
-              class="hidden items-center justify-center rounded-xl bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 transition-all duration-150 hover:bg-gray-50 sm:inline-flex"
-              href="register.html"
-              >Sign up</a
-            >
-            <a
-              class="inline-flex items-center justify-center rounded-xl bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm transition-all duration-150 hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
-              href="login.html"
-              >Login</a
-            >
-          </div>
+        </div>
+        <div class="flex items-center justify-end gap-3 login-register">
+          <a
+            class="hidden items-center justify-center rounded-xl bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 transition-all duration-150 hover:bg-gray-50 sm:inline-flex"
+            href="register.html"
+            >Sign in</a
+          >
+          <a
+            class="inline-flex items-center justify-center rounded-xl bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm transition-all duration-150 hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+            href="login.html"
+            >Login</a
+          >
         </div>
       </div>
-    </header>
+    </div>
+  </header>
 
     <main>
       <div
         class="mt-32 max-w-lg mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-md px-8 py-10 flex flex-col items-center"
       >
-        <a href="https://amethgalarcio.web.app/" target="_blank">
-          <img
-            src="https://www.logo.wine/a/logo/Airbnb/Airbnb-Logo.wine.svg"
-            class="w-24"
-          />
-        </a>
+        
         <form id="register" class="w-full flex flex-col gap-4 mt-8">
           <!-- Full Name and Username in a row -->
           <div class="flex gap-4">
