@@ -37,7 +37,7 @@ registerForm.addEventListener("submit", async function (e) {
 
     if (postReponse.data) {
       signInhdr.style.display = "none"
-      window.location.replace("http://localhost:5174/login.html");
+      window.location.href="/login.html";
     }
   }
 });

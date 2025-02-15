@@ -28,7 +28,7 @@ loginForm.addEventListener("submit", async function (e) {
     logInhdr.style.display="none"
     imgProfile.style.display="flex"
     imagePerson.src=checkUser.profileImage;
-    window.location.replace("http://localhost:5174/user.html");
+    window.location.href="/user.html";
   } else {
     window.alert("incorrect pasword or email");
   }
