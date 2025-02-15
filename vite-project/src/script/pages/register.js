@@ -3,6 +3,7 @@ import { endpoints } from "../services/api.js";
 import User from "../classes/user.js";
 
 const registerForm = document.querySelector("#register");
+const signInhdr = document.querySelector(".signIn")
 
 const registerInputs = {
   fullName: document.querySelector("#fullName"),
@@ -34,8 +35,9 @@ registerForm.addEventListener("submit", async function (e) {
 
     const postReponse = await controller.post(endpoints.users, newUser);
 
-    if(postReponse.data){
-         window.location.replace("http://localhost:5176/login.html");
+    if (postReponse.data) {
+      signInhdr.style.display = "none"
+      window.location.replace("http://localhost:5174/login.html");
     }
   }
 });

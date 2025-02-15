@@ -2,6 +2,11 @@ import controller from "../services/request.js";
 import { endpoints } from "../services/api.js";
 
 const loginForm = document.querySelector("#login-form");
+const signInhdr = document.querySelector(".signIn")
+const logInhdr = document.querySelector(".logIn")
+const imgProfile = document.querySelector(".imgProfile")
+const imagePerson = document.querySelector(".imagePerson")
+
 
 const loginInputs = {
   email: document.querySelector("#email"),
@@ -19,7 +24,11 @@ loginForm.addEventListener("submit", async function (e) {
   });
   if (checkUser) {
     localStorage.setItem("userId", JSON.stringify(checkUser.id));
-    window.location.replace("http://localhost:5176/user.html");
+    signInhdr.textContent = "Sign Up"
+    logInhdr.style.display="none"
+    imgProfile.style.display="flex"
+    imagePerson.src=checkUser.profileImage;
+    window.location.replace("http://localhost:5174/user.html");
   } else {
     window.alert("incorrect pasword or email");
   }

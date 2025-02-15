@@ -71,6 +71,30 @@
       "createdAt": "2025-02-14T21:36:07.353Z",
       "lastLogin": "2025-02-14T21:36:07.353Z",
       "bio": ""
+    },
+    {
+      "id": "7bf1",
+      "fullName": "aysen abbasli",
+      "username": "aysen00",
+      "email": "aysena@gmail.com",
+      "password": "12345678",
+      "role": "client",
+      "profileImage": "https://avatar.iran.liara.run/public/41",
+      "createdAt": "2025-02-15T21:43:45.843Z",
+      "lastLogin": "2025-02-15T21:43:45.843Z",
+      "bio": ""
+    },
+    {
+      "id": "aa30",
+      "fullName": "guler abbasli",
+      "username": "guler00",
+      "email": "gulera@gmail.com",
+      "password": "1234567",
+      "role": "client",
+      "profileImage": "https://avatar.iran.liara.run/public/41",
+      "createdAt": "2025-02-15T21:44:43.020Z",
+      "lastLogin": "2025-02-15T21:44:43.020Z",
+      "bio": ""
     }
   ]
 }

@@ -6,39 +6,30 @@
     <link rel="stylesheet" href="./src/style.css">
     <title>Home Page</title>
   </head>
-  <body style="background-color: gray;">
-    <header
-    class="fixed inset-x-0 top-0 z-30 mx-auto w-full max-w-screen-md border border-gray-100 bg-white/80 py-3 shadow backdrop-blur-lg md:top-6 md:rounded-3xl lg:max-w-screen-lg"
-  >
-    <div class="px-4">
-      <div class="flex items-center justify-between">
-        
-        <div
-          class="hidden md:flex md:items-center md:justify-center md:gap-5"
-        >
-          <a
-            aria-current="page"
-            class="inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900"
-            href="index.html"
-            >Home</a
-          >
+  <body style="background-color: white;">
+    <header style="background-color: pink; border-radius: 30px;" class="my-3 mx-3" >
+      <navbar>
+        <div class='w-full py-3 '>
+    
+          <div class='flex justify-between px-20 items-center font-semibold'>
+            <div>
+              <h1 class="text-2xl">Profile App</h1>
+            </div>
+            <div class='flex xl:gap-10 md:gap-8  gap-2'>
+              <a href="index.html" class="text-underline">Home</a>
+            </div>
+            <div style="display: flex; gap: 10px;">
+              <a class=' signIn py-2 px-6 bg-black text-white rounded-3xl font-semibold' href="register.html" style="background-color: rgb(49, 49, 216); cursor: pointer;">Sign in</a>
+              <a class='logIn py-2 px-6 bg-black text-white rounded-3xl font-semibold' style="cursor: pointer;" href="login.html">Login</a>
+              <div style="display: none;" class="imgProfile">
+                <img class="imagePerson" src="" alt="" style="width: 36px; height: 36px;">
+              </div>
+            </div>
+          </div>
+          
         </div>
-        <div class="flex items-center justify-end gap-3 login-register">
-          <a
-            class="hidden items-center justify-center rounded-xl bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 transition-all duration-150 hover:bg-gray-50 sm:inline-flex"
-            href="register.html"
-            >Sign in</a
-          >
-          <a
-            class="inline-flex items-center justify-center rounded-xl bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm transition-all duration-150 hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
-            href="login.html"
-            >Login</a
-          >
-        </div>
-      </div>
-    </div>
-  </header>
-
+      </navbar>
+     </header>
     <main>
     </main>
     <script type="module" src="./src/main.js"></script>
